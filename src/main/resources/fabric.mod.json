@@ -1,0 +1,30 @@
+{
+  "schemaVersion": 1,
+  "id": "newyearmod",
+  "version": "${version}",
+
+  "name": "newyearmod",
+  "description": "",
+  "authors": [],
+  "contact": {},
+
+  "license": "All-Rights-Reserved",
+  "icon": "assets/newyearmod/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.daimon.newyearmod.NewYearMod"
+    ]
+  },
+
+  "mixins": [
+    "newyearmod.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=${loader_version}",
+    "fabric-api": "*",
+    "minecraft": "${minecraft_version}"
+  }
+}
